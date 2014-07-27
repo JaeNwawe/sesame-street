@@ -19,7 +19,7 @@ Developed in One Month NYC;*/
 * {
      -moz-box-sizing: border-box; /* Firexfox */
      -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
-     box-sizing: border-box; /* IE */
+     box-sizing: border- box; /* IE */
 }
 
 /* Clear Class */
@@ -29,6 +29,17 @@ Developed in One Month NYC;*/
 
 
 
+.blue	{
+	color:blue;
+}
+
+.red {
+	color:red;
+}
+/*img {
+	float:left;
+	}
+replaced with alignleft and alignright*/
 /*----------------------------------------------------------------------------- 
 =02 LAYOUT 
 -----------------------------------------------------------------------------*/
@@ -37,12 +48,10 @@ Developed in One Month NYC;*/
 
 
 
-
-
 #container {
 	width: 1000px;
 	margin: 0 auto 0 auto;
-	/*automatic on left and right.  0 on top and bottom*/
+	automatic on left and right.  0 on top and bottom
 }
 
 #header {
@@ -54,16 +63,30 @@ Developed in One Month NYC;*/
 #main {
 	background: SkyBlue;
 	padding: 50px;
+	width: 700px;
+	float:left;
 }
+
+#sidebar {
+		background: Pink;
+		width: 300px; /*make two elements work*/
+		float: left;
+/*		padding: 50px; I didn't hear him say to remove padding but it is gone on this demonstration*/ 
+
+	}
 
 #footer {
 	background: PeachPuff;
+		padding: 50px;
+		width: 1000px;
+	}
+
+.alignleft {
+	float:left;
+	margin:0 15px 15px 0;
 }
 
-
-
-
-
-
-
+.alignright {
+	float:right;
+	margin: 0 0 15px 15px;
 }
