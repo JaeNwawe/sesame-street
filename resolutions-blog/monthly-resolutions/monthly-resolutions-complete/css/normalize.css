@@ -1,4 +1,4 @@
-/*! normalize.css v3.0.0 | MIT License | git.io/normalize */
+`  /*! normalize.css v3.0.0 | MIT License | git.io/normalize */
 
 /**
  * 1. Set default font family to sans-serif.
@@ -52,7 +52,7 @@ canvas,
 progress,
 video {
   display: inline-block; /* 1 */
-  vertical-align: baseline; /* 2 */
+  /*vertical-align: baseline; /* 2 */*/
 }
 
 /**
@@ -102,9 +102,9 @@ a:hover {
  * Address styling not present in IE 8/9, Safari 5, and Chrome.
  */
 
-/*abbr[title] {
+abbr[title] {
   border-bottom: 1px dotted;
-}*/
+}
 
 /**
  * Address style set to `bolder` in Firefox 4+, Safari 5, and Chrome.

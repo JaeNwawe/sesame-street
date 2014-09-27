@@ -51,7 +51,7 @@ replaced with alignleft and alignright*/
 #container {
 	width: 1000px;
 	margin: 0 auto 0 auto;
-	automatic on left and right.  0 on top and bottom
+	/*automatic on left and right.  0 on top and bottom*/
 }
 
 #header {
@@ -63,7 +63,7 @@ replaced with alignleft and alignright*/
 #main {
 	background: SkyBlue;
 	padding: 50px;
-	width: 700px;
+	width: 600px;
 	float:left;
 }
 
